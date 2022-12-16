@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signuppage"
+    android:background="@drawable/backgroundforsqliteapp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        >
+
+        <TextView
+            android:id="@+id/signuppagesignuptv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:textColor="#e80f46"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:hint="Email ID"
+            android:layout_below="@id/signuppagesignuptv"
+            android:layout_marginTop="65dp"
+            android:background="#40ffffff"
+            android:textColorHint="@color/white"
+            android:padding="10dp"
+            android:id="@+id/signupemailet"
+            android:textSize="16dp"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:hint="Password"
+            android:layout_below="@id/signupemailet"
+            android:layout_marginTop="25dp"
+            android:background="#40ffffff"
+            android:textColorHint="@color/white"
+            android:padding="10dp"
+            android:id="@+id/signuppasswordet"
+            android:textSize="16dp"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:hint="Confirm Password"
+            android:layout_below="@id/signuppasswordet"
+            android:layout_marginTop="25dp"
+            android:background="#40ffffff"
+            android:textColorHint="@color/white"
+            android:padding="10dp"
+            android:id="@+id/signupconfirmpasswordet"
+            android:textSize="16dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:backgroundTint="#E80F46"
+            android:layout_below="@id/signupconfirmpasswordet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:id="@+id/signuppagebtn"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signuppagebtn"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account ?"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:id="@+id/alreadyaccounttv"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="0dp"
+                android:text="Login"
+                android:textColor="#e80f46"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:id="@+id/signuplogintv"
+                android:textSize="16dp"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

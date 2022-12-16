@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundforsqliteapp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        >
+
+        <TextView
+            android:id="@+id/loginpagelogintv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#e80f46"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:hint="Email ID"
+            android:layout_below="@id/loginpagelogintv"
+            android:layout_marginTop="65dp"
+            android:background="#40ffffff"
+            android:textColorHint="@color/white"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:id="@+id/loginemailet"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:layout_below="@id/loginemailet"
+            android:layout_marginTop="25dp"
+            android:background="#40ffffff"
+            android:textColorHint="@color/white"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:id="@+id/loginpasswordet"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:backgroundTint="#E80F46"
+            android:layout_below="@id/loginpasswordet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:id="@+id/loginpagebtn"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password ?"
+            android:id="@+id/forgotpass"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/loginpagebtn"
+            android:textSize="16dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginpagebtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't Have An Account ?"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/noaccounttv"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="0dp"
+            android:text="Signup"
+            android:textColor="#e80f46"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:id="@+id/loginsignuptv"
+            android:textSize="16dp"
+            />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
